@@ -2,6 +2,7 @@ browser.contextMenus.create({
   id: "copy-link-to-clipboard",
   title: "Copy direct Giphy image link to clipboard",
   contexts: ["link"],
+  targetUrlPatterns: ["https://*.giphy.com/*"]
 });
 
 browser.contextMenus.onClicked.addListener((info, tab) => {
