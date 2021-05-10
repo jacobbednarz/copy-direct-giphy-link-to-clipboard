@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Copy Giphy image to clipboard",
+  "version": "0.1",
+  "description": "Puts the direct link to a Giphy image on your clipboard",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "clipboardWrite"
+  ]
+}
